@@ -1,7 +1,8 @@
 body{
     background-color: cadetblue;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -9,7 +10,8 @@ body{
     background-color: #588157;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    height: 700px;
     width: 1150px;
     flex: row;
     flex-wrap: wrap;
@@ -123,10 +125,83 @@ body{
 }
 
 .card-circle {
-    background-color: #588157;
+    background-color: #a3b18a;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 700px;
+    width: 1150px;
+}
+
+.card-circle__elem1 {
+    display: flex;
+    background-color: #344e41;
+    border-radius: 8px;
+    width: 273px;
+    height: 220px;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card-circle__elem2 {
+    display: flex;
+    background-color: #344e41;
+    border-radius: 8px;
+    margin: 20px;
+    width: 273px;
+    height: 220px;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card-circle__elem3 {
+    display: flex;
+    background-color: #344e41;
+    border-radius: 8px;
+    margin: 20px;
+    width: 273px;
+    height: 220px;
+    flex-direction: row;
+    align-items: ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-circle__elem4 {
+    display: flex;
+    background-color: #344e41;
+    border-radius: 8px;
+    margin: 20px;
+    width: 273px;
+    height: 220px;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.card-circle__elem5 {
+    display: flex;
+    background-color: #344e41;
+    border-radius: 8px;
+    margin: 20px;
+    width: 273px;
+    height: 220px;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.card-circle__container {
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 4px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 25px 25px;
 }
