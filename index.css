@@ -10,7 +10,8 @@ body{
     background-color: #588157;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: space-evenly;
+    align-content: center;
     height: 700px;
     width: 1150px;
     flex: row;
@@ -21,7 +22,7 @@ body{
     display: flex;
     background-color: rgb(84, 151, 209);
     border-radius: 8px;
-    margin: 20px 20px 0px 20px;
+    margin: 20px;
     width: 470px;
     height: 160px;
     flex-direction: row;
@@ -32,7 +33,7 @@ body{
     display: flex;
     background-color: rgb(84, 151, 209);
     border-radius: 8px;
-    margin: 20px 20px 0px 20px;
+    margin: 20px;
     width: 470px;
     height: 160px;
     flex-direction: row;
@@ -44,7 +45,7 @@ body{
     display: flex;
     background-color: rgb(84, 151, 209);
     border-radius: 8px;
-    margin: 0px 20px 0px 20px;
+    margin: 20px;
     width: 470px;
     height: 160px;
     flex-direction: row;
@@ -56,7 +57,7 @@ body{
     display: flex;
     background-color: rgb(84, 151, 209);
     border-radius: 8px;
-    margin: 0px 20px 0px 20px;
+    margin: 20px;
     width: 470px;
     height: 160px;
     flex-direction: row;
@@ -68,7 +69,7 @@ body{
     display: flex;
     background-color: rgb(84, 151, 209);
     border-radius: 8px;
-    margin: 0px 20px 20px 20px;
+    margin: 20px;
     width: 470px;
     height: 160px;
     flex-direction: row;
@@ -79,7 +80,7 @@ body{
     display: flex;
     background-color: rgb(84, 151, 209);
     border-radius: 8px;
-    margin: 0px 20px 20px 20px;
+    margin: 20px;
     width: 470px;
     height: 160px;
     flex-direction: row;
@@ -129,8 +130,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    align-content: space-evenly;
     height: 700px;
     width: 1150px;
 }
@@ -139,7 +139,7 @@ body{
     display: flex;
     background-color: #344e41;
     border-radius: 8px;
-    margin: 20;
+    margin: 20px;
     width: 273px;
     height: 220px;
     flex-direction: row;
@@ -167,8 +167,7 @@ body{
     width: 273px;
     height: 220px;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -192,7 +191,7 @@ body{
     width: 273px;
     height: 220px;
     flex-direction: row;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     flex-wrap: wrap;
 }
