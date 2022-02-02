@@ -1,0 +1,132 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.card-square {
+    background-color: #588157;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 1150px;
+    flex: row;
+    flex-wrap: wrap;
+}
+
+.card-square__elem1 {
+    display: flex;
+    background-color: rgb(84, 151, 209);
+    border-radius: 8px;
+    margin: 20px;
+    width: 470px;
+    height: 160px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.card-square__elem2 {
+    display: flex;
+    background-color: rgb(84, 151, 209);
+    border-radius: 8px;
+    margin: 20px;
+    width: 470px;
+    height: 160px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card-square__elem3 {
+    display: flex;
+    background-color: rgb(84, 151, 209);
+    border-radius: 8px;
+    margin: 20px;
+    width: 470px;
+    height: 160px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-square__elem4 {
+    display: flex;
+    background-color: rgb(84, 151, 209);
+    border-radius: 8px;
+    margin: 20px;
+    width: 470px;
+    height: 160px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-square__elem5 {
+    display: flex;
+    background-color: rgb(84, 151, 209);
+    border-radius: 8px;
+    margin: 20px;
+    width: 470px;
+    height: 160px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-square__elem6 {
+    display: flex;
+    background-color: rgb(84, 151, 209);
+    border-radius: 8px;
+    margin: 20px;
+    width: 470px;
+    height: 160px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-square__container {
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 4px;
+    min-width: 78px;
+    min-height: 78px;
+}
+
+.card-square__container1 {
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 4px;
+    min-width: 78px;
+    min-height: 78px;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.card-square__container2 {
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 4px;
+    min-width: 78px;
+    min-height: 78px;
+    justify-self: center;
+    align-self: center;
+}
+
+.card-square__container3 {
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 4px;
+    min-width: 78px;
+    min-height: 78px;
+    flex-grow: 2;
+}
+
+.card-circle {
+    background-color: #588157;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
